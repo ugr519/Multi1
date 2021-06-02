@@ -1,12 +1,13 @@
 pipeline {
     agent any
+
     stages {
-        stage('print') {
+        stage('git') {
             steps {
-               bat "hello"
+                bat "hello"
             }
         }
        
-        }
         
     }
+}
